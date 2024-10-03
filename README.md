@@ -1,4 +1,4 @@
-# Systme Design 
+# System Design 
 
 _Hello and welcome to the course! 😊 I trust this course will offer you an excellent learning journey of System Design . 📚✨_
 
