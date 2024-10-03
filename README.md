@@ -8,8 +8,20 @@ _Hello and welcome to the course! 😊 I trust this course will offer you an exc
   - [What is System design?](#what-is-system-design)
 
 * Scalability and Performance
-  - [Horizontal and Vertical Scaling](#Horizontal-Scaling)
+  - [Horizontal and Vertical Scaling](#horizontal-scaling)
+  - [Load Balancing]()
+  - [Sharding]()
+  - [Caching (e.g., Redis, Memcached)]()
+  - [Database Partitioning]()
+  - [CDN (Content Delivery Network)]()
 
+* Data Management
+  - [Relational and NoSQL Databases]()
+  - [CAP Theorem](_)
+  - [ACID and BASE Properties]()
+  - [Data Replication]()
+  - [Evantual Consistency]()
+  - [Data Warehousing]()  
  
 
   # What is system design?
