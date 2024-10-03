@@ -7,10 +7,9 @@ _Hello and welcome to the course! 😊 I trust this course will offer you an exc
 * Getting Started
   - [What is System design?](#what-is-system-design)
 
-* Chapter 1 
-  - [IP](#ip)
-  - [OSI Modal]()
-  - [TCP and UDP](TCP-and-UDP)
+* Scalability and Performance
+  - [Horizontal and Vertical Scaling](#Horizontal-Scaling)
+
  
 
   # What is system design?
@@ -19,12 +18,14 @@ Before we start this course, let's talk about what even is system design.
 
 System design is the process of defining the architecture, interfaces, and data for a system that satisfies specific requirements. System design meets the needs of your business or organization through coherent and efficient systems. It requires a systematic approach to building and engineering systems. A good system design requires us to think about everything, from infrastructure all the way down to the data and how it's stored.
 
+# Horizontal Scaling
 
-# IP 
+Horizontal scaling involves adding more servers or machines to handle increased demand. Instead of upgrading a single server, you introduce additional servers to distribute the workload. This method helps balance the load across multiple servers, making the system more scalable as user traffic grows. For example, if a website experiences a surge in users and one server can't manage it, adding more servers will share the traffic, improving performance and reliability.
 
-An IP address is a unique address that identifies a device on the internet or a local network. IP stands for "Internet Protocol", which is the set of rules governing the format of data sent via the internet or local network.
+# Vertical Scaling
 
-In essence, IP addresses are the identifier that allows information to be sent between devices on a network. They contain location information and make devices accessible for communication. The internet needs a way to differentiate between different computers, routers, and websites. IP addresses provide a way of doing so and form an essential part of how the internet works.
+Vertical scaling means enhancing the power of a single server by increasing its hardware capabilities, like upgrading the CPU, RAM, or storage. This approach boosts the performance of the existing server to handle more load without needing additional machines. For instance, if a server becomes slow due to heavy usage, upgrading its RAM or processor can improve its ability to handle more tasks. Vertical scaling is ideal when you want to improve the capacity of one server without changing the system architecture.
+
 
 
 
