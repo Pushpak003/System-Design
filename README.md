@@ -25,7 +25,7 @@ _Hello and welcome to the course! 😊 I trust this course will offer you an exc
  ### 1. Computer Networking
 Explore the foundational concepts of networking and its importance in system design. Topics include:
 - [**Load Balancing**](#1-load-balancing): How to distribute traffic across servers.
-- [**CDNs**](#2-what-is-a-cdn?): Delivering content faster to users worldwide.
+- [**CDNs**](#2-what-is-a-cdn): Delivering content faster to users worldwide.
 - **Protocols**: HTTP, TCP/IP, DNS, WebSockets, and more.
 - **Firewalls**: Network security practices to control traffic.
 - **IP Addressing**: The role of IPv4 and IPv6 in network communication.
@@ -138,7 +138,7 @@ You can implement load balancing using various tools and services, such as:
 
 
 
-## 2-what-is-a-cdn?
+## 2-what-is-a-cdn
 A CDN is a globally distributed network of servers designed to enhance the performance and availability of web content. It reduces latency and accelerates the delivery of static assets, such as images, videos, and scripts, by storing copies on servers strategically positioned around the world¹.
 
 ### Why Use a CDN?
