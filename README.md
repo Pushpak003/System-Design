@@ -24,7 +24,7 @@ _Hello and welcome to the course! 😊 I trust this course will offer you an exc
 
  ### 1. Computer Networking
 Explore the foundational concepts of networking and its importance in system design. Topics include:
-- **Load Balancing**: How to distribute traffic across servers.
+- [**Load Balancing**](#1-load-balancing): How to distribute traffic across servers.
 - **CDNs**: Delivering content faster to users worldwide.
 - **Protocols**: HTTP, TCP/IP, DNS, WebSockets, and more.
 - **Firewalls**: Network security practices to control traffic.
@@ -106,7 +106,7 @@ System design defines the architecture, interfaces, and data for a system that s
 
  # Computer Networking
 
-## 1. Load balancing  
+## 1.Load balancing  
  
 Load balancing is a technique used in system design to distribute incoming network traffic or application requests across multiple servers. This ensures that no single server is overwhelmed, which helps maintain high availability, efficient utilization of resources, and optimal performance.
 
