@@ -106,7 +106,7 @@ System design defines the architecture, interfaces, and data for a system that s
 
  # Computer Networking
 
-## 1. Load balancing  
+## 1.load-balancing  
  
 Load balancing is a technique used in system design to distribute incoming network traffic or application requests across multiple servers. This ensures that no single server is overwhelmed, which helps maintain high availability, efficient utilization of resources, and optimal performance.
 
