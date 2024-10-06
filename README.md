@@ -25,7 +25,7 @@ _Hello and welcome to the course! 😊 I trust this course will offer you an exc
  ### 1. Computer Networking
 Explore the foundational concepts of networking and its importance in system design. Topics include:
 - [**Load Balancing**](#1-load-balancing): How to distribute traffic across servers.
-- **CDNs**: Delivering content faster to users worldwide.
+- [**CDNs**](#2-what-is-a-cdn?): Delivering content faster to users worldwide.
 - **Protocols**: HTTP, TCP/IP, DNS, WebSockets, and more.
 - **Firewalls**: Network security practices to control traffic.
 - **IP Addressing**: The role of IPv4 and IPv6 in network communication.
@@ -134,6 +134,67 @@ You can implement load balancing using various tools and services, such as:
 - **NGINX**: A popular web server that can also act as a load balancer.
 - **HAProxy**: A reliable, high-performance TCP/HTTP load balancer.
 - **Cloud Services**: AWS Elastic Load Balancing, Google Cloud Load Balancing, and Azure Load Balancer.
+
+
+
+
+## 2-what-is-a-cdn?
+A CDN is a globally distributed network of servers designed to enhance the performance and availability of web content. It reduces latency and accelerates the delivery of static assets, such as images, videos, and scripts, by storing copies on servers strategically positioned around the world¹.
+
+### Why Use a CDN?
+1. **Faster Content Delivery**: By storing copies of website content on servers distributed globally, CDNs reduce the physical distance between users and the content, leading to faster load times.
+2. **Improved Website Performance**: CDNs distribute the load on the origin server, preventing it from being overwhelmed by requests.
+3. **Reduced Latency**: Serving content from servers closer to the end-users minimizes latency, especially beneficial for global audiences.
+4. **Enhanced Scalability**: CDNs offload a significant portion of the traffic from the origin server, allowing websites to handle increased user traffic without compromising performance.
+5. **Bandwidth Savings**: By caching and serving static content locally, CDNs reduce the load on the origin server, leading to significant bandwidth savings².
+
+### How Does a CDN Work?
+1. **Origin Server**: The original versions of the content are stored on the origin server.
+2. **Edge Servers**: These are numerous and distributed across various locations globally. They store cached versions of the content.
+3. **Request Routing**: When a user requests content, the CDN routes the request to the nearest edge server, minimizing the physical distance and reducing load times.
+4. **Caching**: Static assets are cached on the edge servers. Subsequent requests for these assets are served from the edge servers instead of the origin server, reducing the load on the origin and improving scalability².
+
+### Types of CDNs
+1. **Push CDNs**: Content is uploaded directly to the CDN, and the CDN is responsible for delivering it. This is suitable for sites with infrequent content updates.
+2. **Pull CDNs**: The CDN fetches content from the origin server when requested by a user. This is more dynamic and suitable for sites with frequently updated content².
+
+### Design Considerations for a CDN
+1. **Geographical Distribution**: Strategically place edge servers to cover major user bases.
+2. **Caching Strategy**: Determine what content to cache and for how long.
+3. **Load Balancing**: Distribute traffic efficiently across servers to prevent any single server from being overwhelmed.
+4. **Security**: Implement measures like DDoS protection and secure data transmission.
+5. **Scalability**: Ensure the CDN can handle increased traffic and data volumes¹.
+
+### Benefits of Using a CDN
+- **Improved User Experience**: Faster load times and reduced latency enhance the overall user experience.
+- **Cost Efficiency**: Reduced bandwidth usage and server load can lead to cost savings.
+- **Reliability**: Distributed servers ensure content availability even if one server fails¹.
+
+CDNs are crucial for modern web applications, ensuring fast, reliable, and scalable content delivery to users worldwide.
+
+If you have any specific questions or need further details on any aspect, feel free to ask!
+
+Source: Conversation with Copilot, 06/10/2024
+(1) Designing Content Delivery Network (CDN) | System Design. https://www.geeksforgeeks.org/designing-content-delivery-network-cdn-system-design/.
+(2) System Design: Content Delivery Network (CDN) - DEV Community. https://dev.to/karanpratapsingh/system-design-content-delivery-network-cdn-bof.
+(3) What is Content Delivery Network(CDN) in System Design. https://www.geeksforgeeks.org/what-is-content-delivery-networkcdn-in-system-design/.
+(4) System Design Basics: Navigating the World of CDN. https://www.designgurus.io/blog/content-delivery-network-cdn-system-design-basics.
+(5) System Design: The Content Delivery Network (CDN). https://www.educative.io/courses/grokking-the-system-design-interview/system-design-the-content-delivery-network-cdn.
+(6) en.wikipedia.org. https://en.wikipedia.org/wiki/Content_delivery_network.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
