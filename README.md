@@ -29,6 +29,7 @@ Explore the foundational concepts of networking and its importance in system des
 - **Protocols**: HTTP, TCP/IP, DNS, WebSockets, and more.
 - **Firewalls**: Network security practices to control traffic.
 - **IP Addressing**: The role of IPv4 and IPv6 in network communication.
+- 
  
 
 ---
@@ -174,13 +175,7 @@ CDNs are crucial for modern web applications, ensuring fast, reliable, and scala
 
 If you have any specific questions or need further details on any aspect, feel free to ask!
 
-Source: Conversation with Copilot, 06/10/2024
-(1) Designing Content Delivery Network (CDN) | System Design. https://www.geeksforgeeks.org/designing-content-delivery-network-cdn-system-design/.
-(2) System Design: Content Delivery Network (CDN) - DEV Community. https://dev.to/karanpratapsingh/system-design-content-delivery-network-cdn-bof.
-(3) What is Content Delivery Network(CDN) in System Design. https://www.geeksforgeeks.org/what-is-content-delivery-networkcdn-in-system-design/.
-(4) System Design Basics: Navigating the World of CDN. https://www.designgurus.io/blog/content-delivery-network-cdn-system-design-basics.
-(5) System Design: The Content Delivery Network (CDN). https://www.educative.io/courses/grokking-the-system-design-interview/system-design-the-content-delivery-network-cdn.
-(6) en.wikipedia.org. https://en.wikipedia.org/wiki/Content_delivery_network.
+
 
 
 
