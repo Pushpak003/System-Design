@@ -26,7 +26,7 @@ _Hello and welcome to the course! 😊 I trust this course will offer you an exc
 Explore the foundational concepts of networking and its importance in system design. Topics include:
 - [**Load Balancing**](#1-load-balancing): How to distribute traffic across servers.
 - [**CDNs**](#2-what-is-a-cdn): Delivering content faster to users worldwide.
-- **Protocols**: HTTP, TCP/IP, DNS, WebSockets, and more.
+- [**Protocols**](#3Protocols): HTTP, TCP/IP, DNS, WebSockets, and more.
 - **Firewalls**: Network security practices to control traffic.
 - **IP Addressing**: The role of IPv4 and IPv6 in network communication.
 - 
@@ -271,4 +271,4 @@ These are used by end-user applications to interact over the network.
  - Remote login protocol (insecure, plaintext). Port 23.
 
 **SSH (Secure Shell)**
-Secure remote login protocol with encryption. Port 22.
+ - Secure remote login protocol with encryption. Port 22.
