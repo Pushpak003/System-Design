@@ -26,7 +26,7 @@ _Hello and welcome to the course! 😊 I trust this course will offer you an exc
 Explore the foundational concepts of networking and its importance in system design. Topics include:
 - [**Load Balancing**](#1-load-balancing): How to distribute traffic across servers.
 - [**CDNs**](#2-what-is-a-cdn): Delivering content faster to users worldwide.
-- [**Protocols**](#3Protocols): HTTP, TCP/IP, DNS, WebSockets, and more.
+- [**Protocols**](#3-Protocols): HTTP, TCP/IP, DNS, WebSockets, and more.
 - **Firewalls**: Network security practices to control traffic.
 - **IP Addressing**: The role of IPv4 and IPv6 in network communication.
 - 
