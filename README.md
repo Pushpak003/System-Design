@@ -213,7 +213,7 @@ Several tools and services are available for implementing and managing a Content
    - **Features**: Focus on Europe and Asia, real-time analytics, and competitive pricing.
    - **Best For**: Websites with traffic in Europe and Asia⁶.
 
-10. **Sucuri**
+10. **Security**
     - **Features**: Security-focused, DDoS protection, and website firewall.
     - **Best For**: Websites needing enhanced security⁶.
 
@@ -228,3 +228,47 @@ These tools and providers can help you optimize your website's performance, enha
  
  
 ## 3-Protocols
+### 1. Application Layer Protocols
+
+These are used by end-user applications to interact over the network.
+
+**HTTP (HyperText Transfer Protocol)**
+
+  - Used for transferring web pages on the internet. Works on port 80.
+  - Example: When you browse a website.
+
+**HTTPS (HTTP Secure)**
+ - Encrypted version of HTTP using SSL/TLS (port 443).
+ - Ensures secure communication, data integrity, and authentication.
+
+**FTP (File Transfer Protocol)**
+ - Used to upload/download files between client and server. Ports: 20 (data), 21 (control).
+ - Example: Uploading files to a website server.
+
+**SFTP (Secure File Transfer Protocol)**
+ - FTP over SSH. Provides secure file transfer.
+
+**SMTP (Simple Mail Transfer Protocol)**
+ - Used to send emails. Works on port 25 (or 587 with encryption).
+ - Example: Gmail sending an email.
+
+**IMAP (Internet Message Access Protocol)**
+- Email retrieval protocol, allows access and sync from multiple devices. Port 143 (or 993 secure).
+
+**POP3 (Post Office Protocol v3)**
+ - Email retrieval protocol, downloads emails to local device. Port 110 (or 995 secure).
+
+**DNS (Domain Name System)**
+ - Converts domain names (like google.com) into IP addresses. Works on port 53 (UDP/TCP).
+
+**DHCP (Dynamic Host Configuration Protocol)**
+ - Automatically assigns IP addresses, subnet mask, gateway, and DNS server to devices.
+
+**SNMP (Simple Network Management Protocol)**
+ - Used for managing and monitoring network devices (routers, switches, servers).
+
+**Telnet**
+ - Remote login protocol (insecure, plaintext). Port 23.
+
+**SSH (Secure Shell)**
+Secure remote login protocol with encryption. Port 22.
