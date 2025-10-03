@@ -271,4 +271,4 @@ These are used by end-user applications to interact over the network.
  - Remote login protocol (insecure, plaintext). Port 23.
 
 **SSH (Secure Shell)**
- - Secure remote login protocol with encryption. Port 22
+ - Secure remote login protocol with encryption. Port 22.
